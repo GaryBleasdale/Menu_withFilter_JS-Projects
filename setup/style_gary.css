@@ -1,0 +1,100 @@
+*{
+  padding:0px;
+  margin:0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+ display:flex;
+ flex-wrap: wrap;
+ width:1300px;
+ margin:auto;
+}
+
+article{
+  display:flex;
+
+  width:600px;
+  margin:20px 20px;
+}
+
+img{
+  border: solid 2px goldenrod;
+  border-radius:5px;
+  object-fit: cover;
+  min-width:170px;
+  height:100px;
+  
+
+}
+
+button{
+  color:goldenrod;
+  background-color: white;
+  padding:5px 10px;
+  border-radius: 5px;
+  transition: all 400ms ease;
+  margin:0px 10px;
+  border-color: goldenrod;
+  letter-spacing: 2px;
+}
+
+button:hover{
+  background-color: goldenrod;
+  color:white;
+  transition: all 400ms ease;
+}
+
+hr{
+  border: solid 2px goldenrod;
+  width:80px;
+  margin-bottom:30px;
+}
+
+header{
+  display:Flex;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgray;
+  margin-bottom:15px;
+}
+
+.item-info{
+  padding-left:10px;
+}
+
+h4{
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+p{
+  color:grey;
+  line-height: 25px;
+}
+
+/* Filter  */
+
+.filter{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:150px;
+  justify-content: center;
+  margin-top:30px;
+}
+
+h1{
+  margin-bottom:10px;
+}
+
+.price{
+  color:goldenrod;
+}
+
+@media screen and (max-width:1270px) {
+  .container{
+    max-width:200px;
+    justify-content: center;
+  }
+  
+}
